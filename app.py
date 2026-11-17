@@ -112,3 +112,5 @@ if uploaded:
             st.success("✅ Relevé terminé !")
         finally:
             if os.path.exists(tp): os.remove(tp)
+              st.divider()
+st.caption("© 2026 TSHIMANGA M'PUNGA — Tous droits réservés")          
