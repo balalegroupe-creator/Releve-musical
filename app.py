@@ -8,6 +8,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Relevé Musical", page_icon="🎵", layout="wide")
 st.title("🎵 Application de Relevé de Morceaux")
+st.caption("Conçu et développé par TSHIMANGA M'PUNGA")
 st.markdown("Importe un fichier audio pour extraire **tonalité, tempo, grille d'accords, ligne de basse** et télécharger le **MIDI**.")
 
 NOTES_FR = ["Do (C)", "Do# (C#)", "Ré (D)", "Ré# (Eb)", "Mi (E)", "Fa (F)",
